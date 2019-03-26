@@ -26,6 +26,8 @@ New markdown file has been generated.
 Location: twitch-teams-to-markdown-converter/output.md
 ```
 
+<a href="example.png"><img src="example.png" width="500" /></a>
+
 See [example](example.md).
 
 ## Contributing
