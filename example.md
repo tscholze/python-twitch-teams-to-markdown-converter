@@ -1,6 +1,6 @@
 ## Members
-| | | | | | 
- |-|-|-|-|-| 
+| |Name|Status|Language|Family Friendly| 
+ |-|:-|:-|:-:|:-:| 
 |<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/team-livecoders-team_logo_image-2dfbdddbcf5a44e69bbc1a45a179b152-600x600.png" width="100px"/>|<a style=" font-weight: bold" href="https://www.twitch.tv/fhinkel">fhinkel</a>|<span style="text-align:center">💻✨Node.js/JavaScript Interview training 👩‍💻🤓 📺Fun puzzle ...</span>|en|✅|
 |<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/22f54dd9-db8f-4867-bfda-07edc36bf833-profile_image-300x300.png" width="100px"/>|<a style=" font-weight: bold" href="https://www.twitch.tv/kymphillpotts">KymPhillpotts</a>|<span style="text-align:center">Navigation patterns in Android</span>|en|✅|
 |<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/team-livecoders-team_logo_image-2dfbdddbcf5a44e69bbc1a45a179b152-600x600.png" width="100px"/>|<a style=" font-weight: bold" href="https://www.twitch.tv/codebasealpha">CodebaseAlpha</a>|<span style="text-align:center">Ep. 12 - Let's Build a GraphQL Endpoint (Part 1)</span>|en|✅|
@@ -35,4 +35,4 @@
 |<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6159c3ef-1a8d-4d28-9ee9-6d339b34184b-profile_image-300x300.png" width="100px"/>|<a style=" font-weight: bold" href="https://www.twitch.tv/sudokid">SudoKid</a>|<span style="text-align:center">More work on Notify.me Websockets. We gots this!!</span>|en|🚫|
 
 
-> This document was generated on 2019-03-26 15:51 using the [`twitch-teams-to-markdown-converter`](https://github.com/tscholze/python-twitch-teams-to-markdown-converter).
+> This document was generated on 2019-03-26 16:00 using the [`twitch-teams-to-markdown-converter`](https://github.com/tscholze/python-twitch-teams-to-markdown-converter).
