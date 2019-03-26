@@ -2,29 +2,20 @@ import os
 import requests
 import datetime
 
-""" 
-Twitch API client id (https://dev.twitch.tv/console/apps)
-"""
+
+# Twitch API client id (https://dev.twitch.tv/console/apps)
 TWITCH_CLIENT_ID = "7y5ny7hnvkhceu0t2ytccuyv4f8wtn"
 
-"""
-Name of the Twitch team
-"""
+# Name of the Twitch team
 TWITCH_TEAMS_NAME = "livecoders"
 
-"""
-Computed API teams endpoint url
-"""
+# Computed API teams endpoint url
 TWITCH_TEAMS_ENDPOINT_URL = "https://api.twitch.tv/kraken/teams/" + TWITCH_TEAMS_NAME
 
-"""
-Maximum length of status
-"""
+# Maximum length of status
 MAX_STATUS_LENGTH = 60
 
-"""
-Image url that will be used if member's logo url is not valid.
-"""
+# Image url that will be used if member's logo url is not valid.
 FALLBACK_LOGO_IMAGE_URL = "https://static-cdn.jtvnw.net/jtv_user_pictures/team-livecoders-team_logo_image-2dfbdddbcf5a44e69bbc1a45a179b152-600x600.png"
 
 
@@ -34,9 +25,7 @@ class TwitchTeamConverter:
     template-based markdown overview page.
     """
 
-    """
-    Cached team response property
-    """
+    # Cached team response property
     _team = None
 
     def get_team(self):
@@ -63,7 +52,7 @@ class TwitchTeamConverter:
         :return: Content string that represents all members
         """
 
-        members_content = '| | | | | | \n |-|-|-|-|-| \n'
+        members_content = '| |Name|Status|Language|Family Friendly| \n |-|:-|:-|:-:|:-:| \n'
         for member in self.get_team()["users"]:
             members_content += self.create_member_content(member)
 
