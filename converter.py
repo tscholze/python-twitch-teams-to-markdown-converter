@@ -4,10 +4,10 @@ import datetime
 
 
 # Twitch API client id (https://dev.twitch.tv/console/apps)
-TWITCH_CLIENT_ID = "7y5ny7hnvkhceu0t2ytccuyv4f8wtn"
+TWITCH_CLIENT_ID = "<CLIENT_ID>"
 
 # Name of the Twitch team
-TWITCH_TEAMS_NAME = "livecoders"
+TWITCH_TEAMS_NAME = "<TEAM_NAME>"
 
 # Computed API teams endpoint url
 TWITCH_TEAMS_ENDPOINT_URL = "https://api.twitch.tv/kraken/teams/" + TWITCH_TEAMS_NAME
@@ -16,7 +16,7 @@ TWITCH_TEAMS_ENDPOINT_URL = "https://api.twitch.tv/kraken/teams/" + TWITCH_TEAMS
 MAX_STATUS_LENGTH = 120
 
 # Image url that will be used if member's logo url is not valid.
-FALLBACK_LOGO_IMAGE_URL = "https://static-cdn.jtvnw.net/jtv_user_pictures/team-livecoders-team_logo_image-2dfbdddbcf5a44e69bbc1a45a179b152-600x600.png"
+FALLBACK_LOGO_IMAGE_URL = "<SQAURE_PLACEHOLDER_URL"
 
 
 class TwitchTeamConverter:
