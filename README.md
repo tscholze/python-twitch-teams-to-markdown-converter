@@ -1,5 +1,5 @@
 # Twitch Teams to Markdown converter
-> A simple Python script das helps to transform Twitch API team data into a markdown table-based overview.
+> A simple Python script that helps to transform Twitch API team data into a markdown table-based overview.
 
 ## Status
 
