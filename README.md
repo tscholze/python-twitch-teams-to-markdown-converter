@@ -26,6 +26,8 @@ New markdown file has been generated.
 Location: twitch-teams-to-markdown-converter/output.md
 ```
 
+See [example](example.md).
+
 ## Contributing
 
 Feel free to improve the quality of the code. It would be great to learn more from experienced Python developers.
