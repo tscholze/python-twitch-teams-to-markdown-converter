@@ -4,10 +4,10 @@ import datetime
 
 
 # Twitch API client id (https://dev.twitch.tv/console/apps)
-TWITCH_CLIENT_ID = "7y5ny7hnvkhceu0t2ytccuyv4f8wtn"
+TWITCH_CLIENT_ID = "<KEY>"
 
 # Name of the Twitch team
-TWITCH_TEAMS_NAME = "livecoders"
+TWITCH_TEAMS_NAME = "<NAME>"
 
 # Computed API teams endpoint url
 TWITCH_TEAMS_ENDPOINT_URL = "https://api.twitch.tv/kraken/teams/" + TWITCH_TEAMS_NAME
