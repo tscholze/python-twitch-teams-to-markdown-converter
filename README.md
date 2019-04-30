@@ -11,7 +11,7 @@
 
 - Python 3.6.3
 - `pip install requests`
-- Twitch API client id [Developer Dashboard](https://dev.twitch.tv/console/apps)
+- Twitch API client id ([Developer Dashboard](https://dev.twitch.tv/console/apps))
 
 ## Configuration
 
