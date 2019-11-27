@@ -45,7 +45,7 @@ Here's an example usage:
 
 ```yaml
 steps:
-  - uses: tscholze/python-twitch-teams-to-markdown-converter@master
+  - uses: tscholze/python-twitch-teams-to-markdown-converter@1.0.0
     env:
       TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
       TWITCH_TEAMS_NAME: ${{ secrets.TWITCH_TEAMS_NAME }}
