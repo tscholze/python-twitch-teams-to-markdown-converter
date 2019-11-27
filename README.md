@@ -15,7 +15,14 @@
 
 ## Configuration
 
-Open `converter.py` and fill in the required values for the properties `TWITCH_CLIENT_ID` and `TWITCH_TEAMS_NAME`.
+Set the environment variables `TWITCH_CLIENT_ID` and `TWITCH_TEAMS_NAME` set before running.
+
+You can set them at runtime like so:
+
+```
+TWITCH_CLIENT_ID="foo" TWITCH_TEAMS_NAME="bar" python converter.py
+```
+
 To change the templates, have a look at the folder `templates/`.
 
 ## Run
@@ -29,6 +36,22 @@ Location: twitch-teams-to-markdown-converter/output.md
 <a href="example.png"><img src="example.png" width="500" /></a>
 
 See [example](example.md).
+
+## GitHub Action
+
+You can use this script as well as a GitHub Action. With such, you need set the environment variables as described earlier.
+
+Here's an example usage:
+
+```yaml
+steps:
+  - uses: tscholze/python-twitch-teams-to-markdown-converter@master
+    env:
+      TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+      TWITCH_TEAMS_NAME: ${{ secrets.TWITCH_TEAMS_NAME }}
+```
+
+It will generate the output.md file into your `$GITHUB_WORKSPACE` directory which is where your code is checked out to in a normal workflow run.
 
 ## Contributing
 
