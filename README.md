@@ -1,12 +1,6 @@
 # Twitch Teams to Markdown converter
 > A simple Python script that helps to transform Twitch API team data into a markdown table-based overview.
 
-## Status
-
-|Type|Status|
-|----|------|
-|Build (Travis)| - |
-
 ## Requirements
 
 - Python 3.6.3
@@ -59,7 +53,8 @@ Feel free to improve the quality of the code. It would be great to learn more fr
 
 ## Authors
 
-Just me, [Tobi]([https://tscholze.github.io).
+- (Me) [Tobi]([https://tscholze.github.io)
+- [lannonbr](https://github.com/lannonbr), added [GitHub Action support](https://github.com/tscholze/python-twitch-teams-to-markdown-converter/issues/1) 
 
 ## License
 
