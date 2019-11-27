@@ -1,0 +1,5 @@
+name: Twitch Team to Markdown Converter
+description: Generate a table based on a Twitch team.
+runs:
+  using: "docker"
+  image: "Dockerfile"
